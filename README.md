@@ -1,2 +1,2 @@
-# deploymentconfig-to-deployment
-simple python script to convert existing deploymentconfigs to new deployments to be added to any k8s cluster
+# K8s Python Scripts
+This repo contains simple python scripts to help developing and managing openshift/kubernetes resources (i.e. deployments, deploymentconfigs, pipelines etc).
