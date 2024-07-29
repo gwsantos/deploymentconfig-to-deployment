@@ -6,7 +6,7 @@ import json
 
 filepath = sys.argv[1]
 fileList = [f for f in listdir(filepath) if isfile(join(filepath, f))]
-print(fileList)
+print("File list: " + fileList)
 for fileName in fileList:
     fullFilePath=filepath+'/'+fileName
     with open(fullFilePath) as file:    
